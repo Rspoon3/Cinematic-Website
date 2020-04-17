@@ -5,7 +5,7 @@ module.exports = {
   google_analytics_ID   : null,                                       
   presskit_download_link: "https://drive.google.com/file/d/1GV8si_GU7w5yLz1aJHZQzPq5N67l2u_T/view?usp=sharing",                                        
   video_or_screenshot   : "screenshot",                                 // "screenshot" or "video"
-  app_url               : "https://bodyinsights.app/",                  // Domain of your website without path_prefix.
+  app_url               : "https://cinematicapp.netlify.app/",       // Domain of your website without path_prefix.
   path_prefix           : "/",                                          // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
   app_name              : "Cinematic",
   app_price             : null,
@@ -27,11 +27,6 @@ module.exports = {
   // Features List
   features               : [
     {
-      title: "Simple",
-      description: "A beautiful, clean interface makes it easy to find and understand your health metrics.",
-      fontawesome_icon_name: "star",
-    },
-    {
       title: "Search",
       description: "Search for any movie that comes to mind in an instant.",
       fontawesome_icon_name: "search",
@@ -41,6 +36,11 @@ module.exports = {
       description: "Keep track of all your favorite movies, in a beautiful collection design.",
       fontawesome_icon_name: "download",
     },
+    {
+      title: "Simple",
+      description: "A beautiful, clean interface makes it easy to find and understand your health metrics.",
+      fontawesome_icon_name: "star",
+    }
   ],
   header_background             : "rgba(0, 0, 0, 0.2)",
   topbar_title_color            : "#ffffff",
