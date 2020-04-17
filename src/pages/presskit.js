@@ -33,28 +33,23 @@ const IndexPage = ({ data }) => (
         <div className="container presskitPage">
           <Header data = {data}/>
           <div className="presskit-body">
-            <h2>Press Kit</h2>
-            <p>Download full Press Kit with screenshots, promo art, and hi-res icon <a href={configs.presskit_download_link}>here</a>.</p>
+            <h2>  </h2> 
+            {/* <p>Download full Press Kit with screenshots, promo art, and hi-res icon <a href={configs.presskit_download_link}>here</a>.</p> */}
             <div className="presskit-hero">
-              <a href="/screenshots/app-store/phone_banner.png">
-                <img src="/screenshots/app-store/phone_banner.png" />
+              <a href="/screenshots/app-store/device_banner.png">
+                <img src="/screenshots/app-store/device_banner.png" />
               </a>
             </div>
             <Markdown source={appDescription} />
             <h2>Promo Images</h2>
             <div className="presskit-banner">
-              <a href="/screenshots/app-store/dark_logo_banner.png">
-                <img src="/screenshots/app-store/dark_logo_banner.png" />
+              <a href="/screenshots/app-store/promo_banner.png">
+                <img src="/screenshots/app-store/promo_banner.png" />
               </a>
             </div>
             <div className="presskit-banner">
-              <a href="/screenshots/app-store/light_logo_banner.png">
-                <img src="/screenshots/app-store/light_logo_banner.png" />
-              </a>
-            </div>
-            <div className="presskit-banner">
-              <a href="/screenshots/app-store/light_phone_banner.png">
-                <img src="/screenshots/app-store/light_phone_banner.png" />
+              <a href="/screenshots/app-store/device_promo_banner.png">
+                <img src="/screenshots/app-store/device_promo_banner.png" />
               </a>
             </div>
             <div className="presskit-iphone-screenshots">
@@ -68,26 +63,16 @@ const IndexPage = ({ data }) => (
                     <img src="/screenshots/app-store/screenshot_iphone_02.png" />
                   </a>
               </div>
-              <div className="presskit-screenshot">
+            </div>
+            <div className="presskit-iphone-screenshots">
+            <div className="presskit-screenshot">
                   <a href="/screenshots/app-store/screenshot_iphone_03.png">
                     <img src="/screenshots/app-store/screenshot_iphone_03.png" />
                   </a>
               </div>
-            </div>
-            <div className="presskit-iphone-screenshots">
               <div className="presskit-screenshot">
                   <a href="/screenshots/app-store/screenshot_iphone_04.png">
                     <img src="/screenshots/app-store/screenshot_iphone_04.png" />
-                  </a>
-              </div>
-              <div className="presskit-screenshot">
-                  <a href="/screenshots/app-store/screenshot_iphone_05.png">
-                    <img src="/screenshots/app-store/screenshot_iphone_05.png" />
-                  </a>
-              </div>
-              <div className="presskit-screenshot">
-                  <a href="/screenshots/app-store/screenshot_iphone_06.png">
-                    <img src="/screenshots/app-store/screenshot_iphone_06.png" />
                   </a>
               </div>
             </div>            

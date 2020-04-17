@@ -33,7 +33,7 @@ class Footer extends Component {
                             <Link to="/change-log">What's New</Link>
                         </li>
                         <li>
-                            <Link to="/presskit">Press Kit</Link>
+                            <Link to="/presskit">App Details</Link>
                         </li>
                     </ul>
                 </nav>

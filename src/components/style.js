@@ -611,9 +611,6 @@ export default createGlobalStyle`
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px;
-    border-width: 1px;
-    border-color: #444;
-    border-style: solid;
   }
   
   .presskit-iphone-screenshots{
@@ -631,7 +628,7 @@ export default createGlobalStyle`
   }
   
   .presskit-screenshot{
-    width: 30%;
+    width: 48%;
   }
 
   .presskit-iphone-screenshots img{
