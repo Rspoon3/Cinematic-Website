@@ -3,7 +3,7 @@ module.exports = {
   appstore_link         : "https://github.com/Rspoon3/Cinematic",                                  
   playstore_link        : null,                                        
   google_analytics_ID   : null,                                       
-  presskit_download_link: "https://drive.google.com/file/d/1GV8si_GU7w5yLz1aJHZQzPq5N67l2u_T/view?usp=sharing",                                        
+  presskit_download_link: null,                                        
   video_or_screenshot   : "screenshot",                                 // "screenshot" or "video"
   app_url               : "https://cinematicapp.netlify.app/",       // Domain of your website without path_prefix.
   path_prefix           : "/",                                          // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
