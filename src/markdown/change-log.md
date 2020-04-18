@@ -1,3 +1,9 @@
+# Version 2.1
+
+## What’s New
+- Favorites now sync across devices
+- Fixed a bug where your favorites would be out of order
+
 # Version 2.0
 Cinematic has been re-made from the ground up! With full iOS 13 and iPad support, it looks gorgeous in both light and dark mode. With a clean and intuitive UI, everything is easy to find and use. Check out all of the categories you already enjoy and inspect, while also being able to search for any movie. Additionally you can now save movies to your favorites. With a new more refined design, movies have never looked so good.
 
